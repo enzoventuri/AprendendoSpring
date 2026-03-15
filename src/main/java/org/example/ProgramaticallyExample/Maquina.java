@@ -8,8 +8,10 @@ public class Maquina {
     private String tipo;
     private LocalDate dataProximaManutencao;
 
-    public Maquina(long id, String nome, String tipo, LocalDate dataProximaManutencao) {
-        this.id = id;
+    private long idIncrement = 1L;
+
+    public Maquina(String nome, String tipo, LocalDate dataProximaManutencao) {
+        this.id = idIncrement++;
         this.nome = nome;
         this.tipo = tipo;
         this.dataProximaManutencao = dataProximaManutencao;

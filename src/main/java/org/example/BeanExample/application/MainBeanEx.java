@@ -15,6 +15,12 @@ public class MainBeanEx {
         System.out.println(carro2.getModelo());
 
         String teste = context.getBean(String.class);
+
+        System.out.println(teste);
+
+        Integer numero = context.getBean(Integer.class);
+
+        System.out.println(numero);
     }
 
 }
