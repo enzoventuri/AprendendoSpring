@@ -1,4 +1,4 @@
-package org.example.ProgramaticallyExample;
+package org.example.InserirBeansNoContexto.ProgramaticallyExample;
 
 import java.time.LocalDate;
 

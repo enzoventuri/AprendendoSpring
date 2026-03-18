@@ -1,4 +1,4 @@
-package org.example.StereotypeExample;
+package org.example.InserirBeansNoContexto.StereotypeExample;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;

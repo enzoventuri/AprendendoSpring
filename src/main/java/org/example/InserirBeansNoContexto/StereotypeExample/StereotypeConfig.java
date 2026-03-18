@@ -1,11 +1,10 @@
-package org.example.StereotypeExample;
+package org.example.InserirBeansNoContexto.StereotypeExample;
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "org.example.StereotypeExample")
+@ComponentScan(basePackages = "org.example.InserirBeansNoContexto.StereotypeExample")
 public class StereotypeConfig {
 
 }

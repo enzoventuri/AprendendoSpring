@@ -1,4 +1,4 @@
-package org.example.BeanExample.model;
+package org.example.InserirBeansNoContexto.BeanExample.model;
 
 public class Carro {
     private String modelo;

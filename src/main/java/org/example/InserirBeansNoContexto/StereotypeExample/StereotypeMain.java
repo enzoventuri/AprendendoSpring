@@ -1,4 +1,4 @@
-package org.example.StereotypeExample;
+package org.example.InserirBeansNoContexto.StereotypeExample;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

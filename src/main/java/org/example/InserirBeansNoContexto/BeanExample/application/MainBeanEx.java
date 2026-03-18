@@ -1,7 +1,7 @@
-package org.example.BeanExample.application;
+package org.example.InserirBeansNoContexto.BeanExample.application;
 
-import org.example.BeanExample.config.ProjectConfigBeanEx;
-import org.example.BeanExample.model.Carro;
+import org.example.InserirBeansNoContexto.BeanExample.config.ProjectConfigBeanEx;
+import org.example.InserirBeansNoContexto.BeanExample.model.Carro;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MainBeanEx {
