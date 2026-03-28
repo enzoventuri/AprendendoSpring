@@ -1,9 +1,10 @@
-package org.example.WiringBeans;
+package org.example.WiringBeans.Wiring;
 
-public class Produto {
+public class Pessoa {
     private long idAutoIncrement = 1L;
 
     private String nome;
+    private Produto produto;
 
     public String getNome() {
         return nome;
@@ -13,10 +14,19 @@ public class Produto {
         this.nome = nome;
     }
 
+    public Produto getProduto() {
+        return produto;
+    }
+
+    public void setProduto(Produto produto) {
+        this.produto = produto;
+    }
+
     @Override
     public String toString() {
-        return "Produto{" +
+        return "Pessoa{" +
                 ", nome='" + nome + '\'' +
                 '}';
     }
+
 }

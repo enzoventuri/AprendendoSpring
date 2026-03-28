@@ -1,10 +1,13 @@
-package org.example.WiringBeans;
+package org.example.WiringBeans.Wiring;
 
-public class Pessoa {
+public class Produto {
     private long idAutoIncrement = 1L;
 
     private String nome;
-    private Produto produto;
+
+    public Produto() {
+        System.out.println("Produto criado!");
+    }
 
     public String getNome() {
         return nome;
@@ -16,9 +19,6 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa{" +
-                ", nome='" + nome + '\'' +
-                '}';
+        return "Nome do Produto da Pessoa: " + nome;
     }
-
 }
