@@ -2,9 +2,9 @@ package org.example.Scopes.Singleton.Stereotype.service;
 
 import org.example.Scopes.Singleton.Stereotype.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class CommentService {
     private final CommentRepository commentRepository;
 
