@@ -1,4 +1,4 @@
-package org.example.AOP.Simple.After;
+package org.example.AOP.AlteringMethods;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -6,10 +6,10 @@ public class Main {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        ReportService reportService = context.getBean(ReportService.class);
+        ClienteService clienteService = context.getBean(ClienteService.class);
 
-        Report report = new Report("REPORT #02", "Enzo");
+        Cliente cliente = new Cliente("Enzo", "12345678900");
 
-        reportService.publishReport(report);
+        clienteService.salvarCliente(cliente);
     }
 }
