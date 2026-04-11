@@ -1,4 +1,4 @@
-package org.example.AOP.AlteringMethods;
+package org.example.AOP.AlteringMethods.AfterAltering;
 
 import org.springframework.stereotype.Service;
 
@@ -9,7 +9,7 @@ public class ClienteService {
     private Logger log = Logger.getLogger(ClienteService.class.getName());
 
     public String salvarCliente(Cliente cliente) {
-        log.info("Salvando cliente: " + cliente.getNome()   );
+        log.info("Salvando cliente: " + cliente.getNome());
 
         return "CLIENTE SALVO COM SUCESSO!";
     }

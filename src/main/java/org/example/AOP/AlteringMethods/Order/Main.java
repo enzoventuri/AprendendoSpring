@@ -1,4 +1,4 @@
-package org.example.AOP.AlteringMethods;
+package org.example.AOP.AlteringMethods.Order;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -6,10 +6,10 @@ public class Main {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        ClienteService clienteService = context.getBean(ClienteService.class);
+        UserService userService = context.getBean(UserService.class);
 
-        Cliente cliente = new Cliente("Enzo", "12345678900");
+        Usuario usuario = new Usuario("Enzo");
 
-        clienteService.salvarCliente(cliente);
+        userService.deleteUser(usuario);
     }
 }

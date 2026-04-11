@@ -18,6 +18,13 @@ public class LoggingAspect {
 
     private Logger log = Logger.getLogger(LoggingAspect.class.getName());
 
+    // ORDEM CRONOLOGICA (ver pagina 138 no online e 133 no fisico)
+    // * = Metodo interceptado pode ter qualquer valor retornado
+    // pacote = Indica qual pacote esta o metodo interceptado
+    // * = Metodo interceptado pode estar em qualquer classe
+    // * = Metodo interceptado pode ter qualquer nome
+    // (..) = Metodo interceptado pode ter ou nao ter parametros
+
     @Around("execution(* org.example.AOP.Simple.After.*.*(..))")
     public void log(ProceedingJoinPoint joinPoint) throws Throwable{
         log.info("Antes de iniciar o metodo");

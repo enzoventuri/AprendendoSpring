@@ -1,4 +1,4 @@
-package org.example.AOP.AlteringMethods;
+package org.example.AOP.AlteringMethods.BeforeAltering;
 
 public class Cliente {
     private String nome;

@@ -1,4 +1,4 @@
-package org.example.AOP.AlteringMethods;
+package org.example.AOP.AlteringMethods.BeforeAltering;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 public class LoggingAspect {
     private Logger log = Logger.getLogger(LoggingAspect.class.getName());
 
-    @Around("execution(* org.example.AOP.AlteringMethods.*.*(..))")
+    @Around("execution(* org.example.AOP.AlteringMethods..BeforeAltering.*.*(..))")
     public Object log(ProceedingJoinPoint joinPoint) throws Throwable {
         String methodName = joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();
