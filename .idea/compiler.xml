@@ -6,15 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="WebApp (1)" />
         <module name="AprendendoSpring" />
+        <module name="aprendendo-spring" />
         <module name="WebApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chapter 7" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AprendendoSpring" options="-parameters" />
+      <module name="Chapter 7" options="-parameters" />
       <module name="WebApp" options="-parameters" />
+      <module name="WebApp (1)" options="-parameters" />
+      <module name="aprendendo-spring" options="-parameters" />
     </option>
   </component>
 </project>

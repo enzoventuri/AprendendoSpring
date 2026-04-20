@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Path Variables</title>
+</head>
+<body>
+    <h1>Welcome! You changed the color of your name with the path variable:
+        <span th:style="'color:' + ${color}" th:text="${user}"></span>!
+    </h1>
+</body>
+</html>
