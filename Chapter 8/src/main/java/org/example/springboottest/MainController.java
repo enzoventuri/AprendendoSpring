@@ -33,8 +33,6 @@ public class MainController {
         page.addAttribute("color", color);
 
         return "pathVariables.html";
-
     }
-
 
 }
