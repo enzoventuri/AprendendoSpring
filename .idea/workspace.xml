@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32d4f7df-fbad-4cdf-9e63-6698fa351646" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 9/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/LoginProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/LoginProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/controller/MainControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 9/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 9/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,41 +60,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainBeanEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramaticallyMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringBootTestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StereotypeMain.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.login.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.SpringBootTestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Edson Venturi/IdeaProjects/AprendendoSpring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Edson Venturi/IdeaProjects/AprendendoSpring/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainBeanEx.executor": "Run",
+    "Application.ProgramaticallyMain.executor": "Run",
+    "Application.SpringBootTestApplication.executor": "Run",
+    "Application.StereotypeMain.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.login.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.SpringBootTestApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Edson Venturi/IdeaProjects/AprendendoSpring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Edson Venturi/IdeaProjects/AprendendoSpring/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Edson Venturi\IdeaProjects\AprendendoSpring" />
@@ -184,7 +184,8 @@
       <workItem from="1777671327712" duration="1839000" />
       <workItem from="1777733677029" duration="596000" />
       <workItem from="1778352677681" duration="1655000" />
-      <workItem from="1779283006614" duration="7693000" />
+      <workItem from="1779283006614" duration="8156000" />
+      <workItem from="1779648157858" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -240,6 +241,20 @@
           <url>file://$PROJECT_DIR$/Chapters 1 - 6/src/main/java/org/example/Scopes/Prototype/StereotypeAnnotation/Main.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/SpringBootTestApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Chapter 9/src/main/java/org/example/springboottest/controller/MainControllers.java</url>
+          <line>14</line>
+          <properties class="org.example.springboottest.controller.MainControllers" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
